@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html lang="eng">
-    <meta charset="UTF-8">
-    <title>Password Creating Tool</title>
-    <link rel="resetstyle" href=reset.css>
-    <link rel="stylesheet" href=style.css> 
-    <script rel="scriptsheet" src=script.js></script> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Crafting Tool</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-
-<head>Password Crafting Tool</head>
-
-<body>
-    <section class="card">
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Crafting Tool</h1>
+      </header>
+      <div class="card">
         <div class="card-header">
-            <h1>Let's create a password for you.</h1>
+          <h2>Create a Password</h2>
         </div>
         <div class="card-body">
-            <textarea readonly id="password" placeholder="Your password will appear here" aria-label="Password feedback"></textarea>
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
         </div>
-        <div id="card-footer">
-            <button id="Create" class="button">Create Your Password</button>
+        <div class="card-footer">
+          <button id="create" class="btn">Create Password</button>
+          <button id="create" class="btn">Copy To Clipboard</button>
         </div>
-    </section>
-</body>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 
-<footer></footer>
-
-</html> 
+</html>
