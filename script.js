@@ -58,15 +58,19 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
-  copyBtn.removeAttribute("disabled");
-   copyBtn.focus();
 }
 
+// function myFunction() {
+//   var copyText = document.getElementById("myInput");
+//   copyText.select();
+//   copyText.setSelectionRange(0, 99999)
+//   document.execCommand("copy");
+
 function copyPassword() {
+  var passwordTextarea = document.getElementById("myInput");
     passwordTextarea.select();
     document.execCommand("copy");
     passwordTextarea.innerHTML = ("");
 }
-// Add event listener to generate button
+
 createBtn.addEventListener("click", writePassword);
