@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: orange;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    color:purple;
+}
+
+body {
+
+}
+
+section {
+
+}
+
+.card {
+    background-color: royalblue;
+    border-radius: 10px;
+    border-width: 5px;
+    color:skyblue; 
+    font-size: medium;
+
+}
+
+.card-body {
+
+}
+
+.card-footer {
+
+}
+
+.button {
+
+}
+
